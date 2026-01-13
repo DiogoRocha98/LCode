@@ -1,0 +1,16 @@
+# VS Code
+.vscode/
+
+# C++ - Ignorar executáveis (ajuste se usar nomes específicos)
+*.exe
+*.out
+# Se compilar sem extensão no Linux/Mac, ignore o nome do ficheiro gerado:
+problem_1422
+
+# Java - Ignorar ficheiros compilados
+*.class
+
+# Python - Ignorar cache
+__pycache__/
+*.py[cod]
+*$py.class
